@@ -1,10 +1,14 @@
-import './App.css'
-import Navbar from './Components/Navbar/Navbar';
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Navbar />
+    <BrowserRouter>
+      <Navbar />
+    </BrowserRouter>
   );
 }
 
-export default App
+export default App;
